@@ -43,6 +43,7 @@ require('./app/routes/card.routes')(app);
 require('./app/routes/transaction.routes')(app);
 require('./app/routes/profilecards.routes')(app);
 require('./app/routes/profiletransactions.routes')(app);
+require('./app/routes/joinCardsUsers.router')(app);
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => {
